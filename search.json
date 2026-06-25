@@ -130,21 +130,21 @@
     "href": "slides/microteaching.html#spostatevi",
     "title": "Chi sta pensando?",
     "section": "Spostatevi",
-    "text": "Spostatevi\n\n\n\n← Sostituto\nPrompt A\n\nSpiega il concetto di feedback formativo.\n\n\n\n\nCollega di pensiero →\nPrompt B\n\nAgisci come tutor socratico. Aiuta studenti universitari a capire il feedback formativo. Prima proponi una situazione concreta, poi fai una domanda diagnostica, poi mostra una risposta incompleta di uno studente, infine chiedi alla classe di migliorarla. Non dare subito la soluzione.\n\n\n\n\nSinistra · Centro (incerti) · Destra\n\n\nSi alzano e si spostano. 1-2 motivazioni. Non dire chi ha ragione."
+    "text": "Spostatevi\n\n\n\n← Sostituto · Prompt A\n\nSpiega il concetto di feedback formativo.\n\n\n\n\nCollega di pensiero → · Prompt B\n\nAgisci come tutor socratico. Aiuta studenti universitari a capire il feedback formativo. Prima proponi una situazione concreta, poi fai una domanda diagnostica, poi mostra una risposta incompleta di uno studente, infine chiedi alla classe di migliorarla. Non dare subito la soluzione.\n\n\n\n\nSinistra = sostituto · Centro = incerti · Destra = collega di pensiero\n\n\nSi alzano e si spostano. 1-2 motivazioni. Non dire chi ha ragione."
   },
   {
     "objectID": "slides/microteaching.html#la-situazione",
     "href": "slides/microteaching.html#la-situazione",
     "title": "Chi sta pensando?",
     "section": "La situazione",
-    "text": "La situazione\nSiamo docenti. Vogliamo usare chatbot e agenti senza delegare il pensiero.\n\nNon è “sì o no al chatbot”. È progettazione: chi pensa · quando · con quale controllo · con quale prodotto.\n\nSegmento 2 — ~45 secondi."
+    "text": "La situazione\nUno studente vi consegna un testo perfetto, generato da un chatbot. Chi ha imparato? E voi cosa state valutando?\nNon è “sì o no al chatbot”. È progettazione: chi pensa · quando · con quale controllo · con quale prodotto.\n\nSegmento 2 — ~50 secondi. Scenario concreto, poi il problema di progettazione."
   },
   {
     "objectID": "slides/microteaching.html#esperimento",
     "href": "slides/microteaching.html#esperimento",
     "title": "Chi sta pensando?",
     "section": "Esperimento",
-    "text": "Esperimento\nPrima di eseguire — previsione:\nProdurrà una spiegazione o un compito da far fare agli studenti?\n\n\n[ eseguo il Prompt B dal vivo → trattiamo l’output come materiale didattico, non come risposta ]\n\n\nSegmento 3. Tieni una chat col Prompt B già pronta. Se la rete non va: salta alla slide di backup (la prossima)."
+    "text": "Esperimento\nPrima di eseguire — previsione: produrrà una spiegazione o un compito da far fare agli studenti?\n\nEseguo il Prompt B dal vivo → trattiamo l’output come materiale didattico, non come risposta.\n\n\nSegmento 3. Tieni una chat col Prompt B già pronta. Se la rete non va: vai alla slide di backup (la prossima)."
   },
   {
     "objectID": "slides/microteaching.html#esperimento-backup",
@@ -158,21 +158,21 @@
     "href": "slides/microteaching.html#la-vostra-sfida-3-minuti",
     "title": "Chi sta pensando?",
     "section": "La vostra sfida — 3 minuti",
-    "text": "La vostra sfida — 3 minuti\n\nTrasformate un prompt povero → attivo con lo schema O-A-R-C-O\n\n\n\n\n\n\n\n\nO\nObiettivo\ncosa devono capire\n\n\nA\nAzione studenti\nscegliere · correggere · confrontare · argomentare · migliorare · ipotizzare\n\n\nR\nRuolo chatbot/agente\ngenera: caso · errore · alternative · domanda · feedback\n\n\nC\nControllo docente\ncosa il docente verifica\n\n\nO\nOutput finale\ncosa resta, verificabile\n\n\n\nScrivete il prompt finale sulla scheda gruppo.\n\nConcetti: bias di selezione · derivata · consenso informato · equilibrio chimico · fonte primaria · variabile confondente · regressione logistica · fronti d’onda — Gruppo 1: ______ · Gruppo 2: ______\n\n\n\nSlide da lasciare proiettata durante il lavoro di gruppo (segmento 4). Tu giri fra i tavoli, zitto. Ultimi 20 sec: ogni gruppo si auto-valuta con i 4 criteri 0-1-2 sulla scheda."
+    "text": "La vostra sfida — 3 minuti\n\nTrasformate un prompt povero → attivo con lo schema O-A-R-C-O\n\n\n\n\n\n\n\n\nO\nObiettivo\ncosa devono capire\n\n\nA\nAzione studenti\nscegliere · correggere · confrontare · argomentare · migliorare · ipotizzare\n\n\nR\nRuolo chatbot/agente\ngenera: caso · errore · alternative · domanda · feedback\n\n\nC\nControllo docente\ncosa il docente verifica\n\n\nO\nOutput finale\ncosa resta, verificabile\n\n\n\nScrivete il prompt finale sulla scheda gruppo.    Concetti (scegline uno per gruppo): bias di selezione · derivata · consenso informato · equilibrio chimico · fonte primaria · variabile confondente · regressione logistica · fronti d’onda.\n\n\nLasciala proiettata durante il lavoro di gruppo (segmento 4). Tu giri fra i tavoli, zitto. Ultimi 20 sec: ogni gruppo si auto-valuta con i 4 criteri 0-1-2 sulla scheda."
   },
   {
     "objectID": "slides/microteaching.html#restituzione",
     "href": "slides/microteaching.html#restituzione",
     "title": "Chi sta pensando?",
     "section": "Restituzione",
-    "text": "Restituzione\nOgni gruppo: legge solo il prompt finale + qual è l’azione degli studenti.\n\n\nDove resta il controllo del docente?\n\n\nSegmento 5. La domanda è il ponte verso il payoff."
+    "text": "Restituzione\nOgni gruppo: legge solo il prompt finale + qual è l’azione degli studenti.\n\nDove resta il controllo del docente?\n\n\nSegmento 5. La domanda è il ponte verso il payoff."
   },
   {
     "objectID": "slides/microteaching.html#chi-sta-pensando",
     "href": "slides/microteaching.html#chi-sta-pensando",
     "title": "Chi sta pensando?",
     "section": "Chi sta pensando?",
-    "text": "Chi sta pensando?\n\nNon il chatbot. Non lo studente da solo. La classe — usando l’output del chatbot come oggetto da lavorare.\n. . .\nNon conta solo cosa dice il chatbot. Conta cosa fa fare agli studenti.\n. . .\nIl valore non sta nella risposta generata, ma nell’attività che quella risposta rende possibile.\n\n\nSegmento 6 — payoff. Il chatbot come oggetto attorno a cui la classe ragiona, non soggetto che risponde."
+    "text": "Chi sta pensando?\n\nNon il chatbot. Non lo studente da solo. La classe — usando l’output del chatbot come oggetto da lavorare.\nNon conta solo cosa dice il chatbot. Conta cosa fa fare agli studenti.\nIl valore non sta nella risposta generata, ma nell’attività che quella risposta rende possibile.\n\n\nSegmento 6 — payoff. Il chatbot come oggetto attorno a cui la classe ragiona, non soggetto che risponde."
   },
   {
     "objectID": "slides/microteaching.html#vi-resta-tutto",
