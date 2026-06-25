@@ -1,0 +1,114 @@
+:root {
+  --good: #1b7f4b;
+  --good-bg: #e8f5ee;
+  --bad: #b23b3b;
+  --bad-bg: #fbeaea;
+  --ink: #1f2933;
+  --accent: #2563eb;
+}
+
+.hero {
+  background: linear-gradient(135deg, #f0f4ff 0%, #eafaf1 100%);
+  border-left: 6px solid var(--accent);
+  padding: 1.4rem 1.6rem;
+  border-radius: 10px;
+  margin: 1rem 0 2rem;
+}
+.hero h2 { margin-top: 0; line-height: 1.25; }
+.hero blockquote { font-size: 1.05rem; }
+
+.card {
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  height: 100%;
+  border: 1px solid #e2e8f0;
+}
+.card h4 { margin-top: 0; }
+.card blockquote {
+  margin: .6rem 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: .9rem;
+  background: rgba(0,0,0,.04);
+  padding: .6rem .8rem;
+  border-radius: 6px;
+}
+.card-bad { background: var(--bad-bg); border-color: #f0c9c9; }
+.card-bad h4 { color: var(--bad); }
+.card-good { background: var(--good-bg); border-color: #bfe6cf; }
+.card-good h4 { color: var(--good); }
+
+.formula-box pre {
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  font-size: .95rem;
+  line-height: 1.6;
+}
+
+/* Generatore */
+.generator {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.2rem;
+  background: #fafbfc;
+}
+.gen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: .8rem 1rem;
+}
+.gen-grid label { display: flex; flex-direction: column; font-weight: 600; font-size: .9rem; gap: .3rem; }
+.gen-grid input {
+  font-weight: 400;
+  padding: .5rem .6rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: .95rem;
+}
+.gen-grid input:focus { outline: 2px solid var(--accent); border-color: var(--accent); }
+.gen-actions { margin: 1rem 0 .6rem; display: flex; gap: .6rem; align-items: center; }
+.btn-primary, .btn-ghost, .btn-copy {
+  cursor: pointer; border-radius: 6px; padding: .5rem .9rem; font-size: .9rem; font-weight: 600;
+  border: 1px solid var(--accent);
+}
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-ghost { background: #fff; color: var(--accent); }
+.btn-copy { background: #fff; color: var(--accent); padding: .3rem .7rem; font-size: .8rem; align-self: flex-start; }
+.gen-status { color: var(--good); font-weight: 600; }
+.gen-out {
+  background: #0f172a; color: #e2e8f0; padding: 1rem 1.2rem; border-radius: 10px;
+  white-space: pre-wrap; font-size: .92rem; line-height: 1.55; min-height: 3rem;
+}
+
+/* Esempi */
+.esempio {
+  border: 1px solid #e2e8f0; border-radius: 10px; margin: .6rem 0; padding: .2rem .9rem; background: #fff;
+}
+.esempio summary { cursor: pointer; padding: .7rem .2rem; font-size: 1.02rem; }
+.esempio[open] summary { border-bottom: 1px solid #eef2f7; margin-bottom: .6rem; }
+.badge {
+  display: inline-block; background: #eef2ff; color: var(--accent);
+  font-size: .72rem; font-weight: 700; padding: .12rem .5rem; border-radius: 999px; margin-right: .4rem;
+}
+.esempio-body .povero { color: var(--bad); font-family: ui-monospace, Consolas, monospace; font-size: .9rem; }
+table.oarco { width: 100%; border-collapse: collapse; margin: .6rem 0; }
+table.oarco th {
+  width: 2rem; text-align: center; background: #f1f5f9; color: var(--accent);
+  font-weight: 800; border: 1px solid #e2e8f0;
+}
+table.oarco td { border: 1px solid #e2e8f0; padding: .4rem .6rem; font-size: .92rem; }
+.attivo-label { margin: .6rem 0 .3rem; font-weight: 600; }
+.attivo-wrap { display: flex; gap: .6rem; align-items: flex-start; }
+pre.attivo {
+  flex: 1; background: var(--good-bg); border: 1px solid #bfe6cf; color: #14532d;
+  padding: .8rem 1rem; border-radius: 8px; white-space: pre-wrap; font-size: .9rem; line-height: 1.5; margin: 0;
+}
+.tag { font-size: .72rem; font-weight: 700; padding: .1rem .5rem; border-radius: 4px; }
+.tag-bad { background: var(--bad-bg); color: var(--bad); }
+.tag-good { background: var(--good-bg); color: var(--good); }
+
+.payoff {
+  margin: 2rem 0; padding: 1.2rem 1.4rem; background: #0f172a; color: #f8fafc;
+  border-radius: 12px; font-size: 1.15rem; font-weight: 600; text-align: center; line-height: 1.5;
+}

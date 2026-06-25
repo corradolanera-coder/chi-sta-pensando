@@ -1,0 +1,184 @@
+[
+  {
+    "objectID": "docs/scaletta-copione.html",
+    "href": "docs/scaletta-copione.html",
+    "title": "Microteaching — Uso didattico di chatbot e agenti a lezione",
+    "section": "",
+    "text": "Conductor doc — scaletta minuto-per-minuto, copione essenziale, istruzioni operative. Domanda-guida: «Chi sta pensando: lo studente, il docente o il chatbot?»\n\nDurata: 10 minuti.\nPartecipanti: 7-8 docenti universitari, senza PC.\nTu: PC + proiettore. Parlato docente ≤ 5 minuti complessivi.\nQuesto file è la tua “regia”. Tieni davanti solo questo + le slide proiettate.\n\n\n\n\n\n“Sbagliato” non vuol dire inutile: un prompt povero può comunque servire.\nIl punto non è se il chatbot è utile, ma se sostituisce il pensiero o lo rende visibile, discutibile, migliorabile.\nIl chatbot è collega di pensiero quando diventa l’oggetto attorno a cui la classe ragiona, non il soggetto che risponde al posto degli studenti.\nIl valore non sta nella risposta generata, ma nell’attività che quella risposta rende possibile.\n\n\n\n\n\nQuesta è la colonna che devi rispettare. “Parlato” = solo quando parli tu. Tutto il resto è loro.\n\n\n\n\n\n\n\n\n\n\n#\nSegmento\nDurata segmento\nTuo parlato\nChi lavora\n\n\n\n\n1\nHook dx/sx\n1:00\n~0:45\npartecipanti si spostano\n\n\n2\nSituazione / problema\n1:00\n~0:50\nascoltano\n\n\n3\nEsperimento (Prompt B live)\n1:30\n~0:45\nprevedono, leggono l’output\n\n\n4\nLavoro in gruppi\n3:00\n~0:30 (istruzioni + spinta + annuncio 30s)\ngruppi\n\n\n5\nRestituzione lampo\n2:00\n~0:30 (1 domanda)\ngruppi\n\n\n6\nPayoff + artefatto\n1:30\n~1:00\nascoltano\n\n\n\nTotale\n10:00\n≈ 4:20\n\n\n\n\nMargine ~40 secondi sul tetto dei 5 minuti di parlato. È il tuo cuscinetto: se sfori, recuperi tagliando le motivazioni del segmento 1 o le domande del 5.\nAttenzione al tempo totale: i sei segmenti sommano esattamente 10:00, senza buffer. Spostamento fisico (seg. 1) e gruppi (seg. 4) sono i più a rischio di dilatarsi. Se stai sforando i 10 minuti totali (non solo il parlato), comprimi nell’ordine: prima il seg. 4 (porta a 2:30), poi il seg. 5 (porta a 1:30).\n\n\n\n\n\nProietta la slide 1 (hook dx/sx) già aperta.\nTieni pronta, in una finestra a parte, una chat con il Prompt B già incollato ma non ancora inviato (segmento 3). Così non perdi tempo a digitare.\nStampa e distribuisci sui tavoli: scheda A4 (1 a testa) e scheda gruppo (1 per gruppo). Penne sui tavoli.\nDecidi i 2 gruppi (3-4 persone ciascuno) e, se vuoi, pre-assegna un concetto per gruppo dalla lista (vedi sotto) per non perdere tempo nella scelta. Tieni sempre 2 gruppi, anche con 6 presenti: così la restituzione resta a 2 letture dentro i 2:00.\nSgombra lo spazio: serve che le persone possano spostarsi fisicamente a sinistra/destra.\n\n\n\n\n\nLe battute fra virgolette sono il copione essenziale: dille (quasi) così, sono tarate per stare nel budget. Tra parentesi quadre le azioni.\n\n\n[Slide 1 proiettata: a sinistra «Chatbot come sostituto», a destra «Chatbot come collega di pensiero». Sotto, i due prompt A e B.]\n\n«Leggete i due prompt sullo schermo. Stesso tema, due modi di usarlo. Ora alzatevi e spostatevi: a sinistra se per voi questo è un chatbot che sostituisce il pensiero, a destra se lo rende visibile e migliorabile. Al centro se siete incerti. Avete dieci secondi.»\n\n[Aspetta che si spostino. Conta a mente.]\n\n«Tu — una parola: perché lì? … E tu a destra?»\n\n[Massimo 2 voci, una frase ciascuna. Non commentare nel merito. Chiudi:] «Teniamo in sospeso. Tornate a sedervi.»\nCosa NON fare: non dire chi ha “ragione”. Lo scioglie il payoff.\n\n\n\n\n\n«Uno studente vi consegna un testo perfetto, generato da un chatbot. Chi ha imparato? E voi: cosa state valutando — il suo pensiero o quello della macchina? Siamo docenti. Vogliamo usare chatbot e agenti in aula senza delegare il pensiero agli studenti. Il problema non è “sì o no al chatbot”. È un problema di progettazione: chi pensa, quando, con quale controllo nostro, e con quale prodotto finale. Nei prossimi minuti lo trasformiamo in qualcosa che potete riusare lunedì.»\n\n\n\n\n\n[Passa alla chat con il Prompt B pronto.]\n\n«Prima previsione, secca: secondo voi questo prompt produrrà una spiegazione o un compito da far fare agli studenti? Alzata di mano: spiegazione… compito…»\n\n[Invia il Prompt B. Lascia comparire l’output.]\n\n«Non valutiamo se è perfetto. Lo trattiamo come materiale didattico: una bozza che la classe può correggere, completare, discutere. Ecco lo spostamento — il chatbot non è il pensante: è l’oggetto su cui si pensa.»\n\n[Se l’output è lungo: scorri, non leggerlo tutto. 10 secondi bastano.]\nPiano B se la rete/chat non va: il deck ha una slide di backup subito dopo “Esperimento”. Inserisci lì lo screenshot screenshot-promptB.png (catturane uno prima della sessione). Se la rete cade, salti a quella slide e fai la stessa battuta sullo screenshot.\n\n\n\n\n\n«Due gruppi. Ogni gruppo prende un prompt povero — “Spiega agli studenti il concetto di X” — e lo trasforma in un prompt attivo: uno in cui gli studenti devono fare qualcosa (scegliere, correggere, confrontare, argomentare, migliorare, formulare ipotesi). Usate lo schema O-A-R-C-O sulla scheda. Tre minuti. Scrivete il prompt finale nel riquadro. Via.»\n\n[Da qui in poi stai zitto. Gira fra i tavoli, non risolvere tu. Al massimo una spinta: «qual è l’azione concreta degli studenti?». A 2:30 annuncia:] «Trenta secondi: chiudete il prompt finale e auto-valutatevi con i 4 criteri 0-1-2 sulla scheda.»\nConcetti assegnabili (scegli o lascia scegliere): bias di selezione · derivata · consenso informato · equilibrio chimico · fonte primaria · variabile confondente · regressione logistica · fronti d’onda.\n\n\n\n\n\n«Ogni gruppo legge solo il prompt finale e mi dice qual è l’azione richiesta agli studenti. Niente preamboli — max ~30 secondi a gruppo.»\n\n[Gruppo 1 legge. Gruppo 2 legge. ~40 secondi l’uno.]\n[Poi la tua unica domanda di chiusura, a entrambi:]\n\n«Dove resta il controllo del docente? In una frase.»\n\n[Lascia che rispondano. Non aggiungere. Questa domanda è il ponte verso il payoff.]\n\n\n\n\n\n«Torniamo all’inizio: chi sta pensando? La risposta buona non è “il chatbot” né “lo studente da solo”. È: la classe pensa, usando l’output del chatbot come oggetto da lavorare. Non conta solo cosa dice il chatbot: conta cosa fa fare agli studenti. Un chatbot diventa didatticamente interessante quando non è il soggetto che risponde, ma l’oggetto attorno a cui la classe ragiona. Il valore didattico non sta nella risposta generata, ma nell’attività che quella risposta rende possibile.»\n\n[Mostra slide finale con QR / link.]\n\n«Vi resta tutto: la scheda che avete in mano, lo schema O-A-R-C-O, la formula pronta, la mini-rubrica e una pagina web con esempi e un generatore di prompt. Inquadrate il QR — è sulla scheda e sullo schermo: corradolanera-coder.github.io/chi-sta-pensando. Grazie.»\n\n\n\n\n\n\nNon chiedere “Spiega X”. Chiedi: “Crea una situazione in cui gli studenti devono fare qualcosa con X.”\n\n\n\n\n\n\n\n\nLettera\nSignificato\nDomanda-guida\n\n\n\n\nO\nObiettivo\nCosa devono capire / saper fare gli studenti?\n\n\nA\nAzione degli studenti\nCosa fanno? (scegliere, correggere, confrontare, argomentare, migliorare, ipotizzare)\n\n\nR\nRuolo del chatbot/agente\nCosa genera per far pensare? (caso, errore, alternative, domanda, feedback)\n\n\nC\nControllo docente\nCosa il docente verifica / decide?\n\n\nO\nOutput finale\nCosa resta? (un prodotto degli studenti, verificabile)\n\n\n\n\n\n\nAgisci come [ruolo didattico]. Aiuta studenti di [livello] a capire [concetto]. Non limitarti a spiegare. Crea una situazione in cui gli studenti devono [azione]. Produci [caso / errore / alternative / domanda / feedback]. Non dare subito la soluzione. Alla fine restituisci [output finale]. Il docente dovrà verificare [punto di controllo].\n\n\n\n\n\n\n\n\n\n\n\n\n\nCriterio\n0\n1\n2\n\n\n\n\n1. Gli studenti agiscono (non solo leggono)\nassente\naccennato\npieno\n\n\n2. Il chatbot genera materiale per pensare\nassente\ngenerico\nmirato\n\n\n3. Il docente mantiene il controllo (verifica esplicita)\nassente\nimplicito\nesplicito\n\n\n4. Resta un output finale verificabile\nassente\nvago\ndefinito\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRequisito\nDove\n\n\n\n\nHook iniziale\nSegmento 1 (spostamento fisico dx/sx)\n\n\nSituazione\nSegmento 2\n\n\nSfida\nSegmento 4 (trasformare prompt povero → attivo)\n\n\nSoluzione\nSchema O-A-R-C-O (segmenti 4-5)\n\n\nApprendimento attivo\nAzione degli studenti nei prompt + gruppi che producono\n\n\nAttività di gruppo\nSegmento 4\n\n\nPayoff finale\nSegmento 6\n\n\nArtefatto di ritorno\nScheda A4 + scheda gruppo + pagina web/QR\n\n\n\n\n\n\n\nPrompt A — chatbot come sostituto\n\nSpiega il concetto di feedback formativo.\n\nPrompt B — chatbot come collega di pensiero\n\nAgisci come tutor socratico. Aiuta studenti universitari a capire il feedback formativo. Prima proponi una situazione concreta, poi fai una domanda diagnostica, poi mostra una risposta incompleta di uno studente, infine chiedi alla classe di migliorarla. Non dare subito la soluzione.\n\n\n\n\n\n\nHook lungo: taglia le motivazioni (segmento 1) a una sola voce.\nGruppi lenti: dai tu il concetto invece di farlo scegliere; tieni il “30 secondi” fermo.\nRestituzione lunga: un solo gruppo legge, l’altro aggiunge solo “la nostra azione è…”.\nPayoff lungo: di’ solo le due frasi in grassetto (oggetto non soggetto · valore = attività resa possibile) e salta il resto.\nHai 30” di troppo: chiedi una terza motivazione nell’hook, o una seconda azione nella restituzione."
+  },
+  {
+    "objectID": "docs/scaletta-copione.html#messaggio-cosa-deve-restare",
+    "href": "docs/scaletta-copione.html#messaggio-cosa-deve-restare",
+    "title": "Microteaching — Uso didattico di chatbot e agenti a lezione",
+    "section": "",
+    "text": "“Sbagliato” non vuol dire inutile: un prompt povero può comunque servire.\nIl punto non è se il chatbot è utile, ma se sostituisce il pensiero o lo rende visibile, discutibile, migliorabile.\nIl chatbot è collega di pensiero quando diventa l’oggetto attorno a cui la classe ragiona, non il soggetto che risponde al posto degli studenti.\nIl valore non sta nella risposta generata, ma nell’attività che quella risposta rende possibile."
+  },
+  {
+    "objectID": "docs/scaletta-copione.html#budget-del-parlato-totale-500",
+    "href": "docs/scaletta-copione.html#budget-del-parlato-totale-500",
+    "title": "Microteaching — Uso didattico di chatbot e agenti a lezione",
+    "section": "",
+    "text": "Questa è la colonna che devi rispettare. “Parlato” = solo quando parli tu. Tutto il resto è loro.\n\n\n\n\n\n\n\n\n\n\n#\nSegmento\nDurata segmento\nTuo parlato\nChi lavora\n\n\n\n\n1\nHook dx/sx\n1:00\n~0:45\npartecipanti si spostano\n\n\n2\nSituazione / problema\n1:00\n~0:50\nascoltano\n\n\n3\nEsperimento (Prompt B live)\n1:30\n~0:45\nprevedono, leggono l’output\n\n\n4\nLavoro in gruppi\n3:00\n~0:30 (istruzioni + spinta + annuncio 30s)\ngruppi\n\n\n5\nRestituzione lampo\n2:00\n~0:30 (1 domanda)\ngruppi\n\n\n6\nPayoff + artefatto\n1:30\n~1:00\nascoltano\n\n\n\nTotale\n10:00\n≈ 4:20\n\n\n\n\nMargine ~40 secondi sul tetto dei 5 minuti di parlato. È il tuo cuscinetto: se sfori, recuperi tagliando le motivazioni del segmento 1 o le domande del 5.\nAttenzione al tempo totale: i sei segmenti sommano esattamente 10:00, senza buffer. Spostamento fisico (seg. 1) e gruppi (seg. 4) sono i più a rischio di dilatarsi. Se stai sforando i 10 minuti totali (non solo il parlato), comprimi nell’ordine: prima il seg. 4 (porta a 2:30), poi il seg. 5 (porta a 1:30)."
+  },
+  {
+    "objectID": "docs/scaletta-copione.html#setup-prima-di-iniziare-2-minuti-fuori-cronometro",
+    "href": "docs/scaletta-copione.html#setup-prima-di-iniziare-2-minuti-fuori-cronometro",
+    "title": "Microteaching — Uso didattico di chatbot e agenti a lezione",
+    "section": "",
+    "text": "Proietta la slide 1 (hook dx/sx) già aperta.\nTieni pronta, in una finestra a parte, una chat con il Prompt B già incollato ma non ancora inviato (segmento 3). Così non perdi tempo a digitare.\nStampa e distribuisci sui tavoli: scheda A4 (1 a testa) e scheda gruppo (1 per gruppo). Penne sui tavoli.\nDecidi i 2 gruppi (3-4 persone ciascuno) e, se vuoi, pre-assegna un concetto per gruppo dalla lista (vedi sotto) per non perdere tempo nella scelta. Tieni sempre 2 gruppi, anche con 6 presenti: così la restituzione resta a 2 letture dentro i 2:00.\nSgombra lo spazio: serve che le persone possano spostarsi fisicamente a sinistra/destra."
+  },
+  {
+    "objectID": "docs/scaletta-copione.html#scaletta-minuto-per-minuto-copione",
+    "href": "docs/scaletta-copione.html#scaletta-minuto-per-minuto-copione",
+    "title": "Microteaching — Uso didattico di chatbot e agenti a lezione",
+    "section": "",
+    "text": "Le battute fra virgolette sono il copione essenziale: dille (quasi) così, sono tarate per stare nel budget. Tra parentesi quadre le azioni.\n\n\n[Slide 1 proiettata: a sinistra «Chatbot come sostituto», a destra «Chatbot come collega di pensiero». Sotto, i due prompt A e B.]\n\n«Leggete i due prompt sullo schermo. Stesso tema, due modi di usarlo. Ora alzatevi e spostatevi: a sinistra se per voi questo è un chatbot che sostituisce il pensiero, a destra se lo rende visibile e migliorabile. Al centro se siete incerti. Avete dieci secondi.»\n\n[Aspetta che si spostino. Conta a mente.]\n\n«Tu — una parola: perché lì? … E tu a destra?»\n\n[Massimo 2 voci, una frase ciascuna. Non commentare nel merito. Chiudi:] «Teniamo in sospeso. Tornate a sedervi.»\nCosa NON fare: non dire chi ha “ragione”. Lo scioglie il payoff.\n\n\n\n\n\n«Uno studente vi consegna un testo perfetto, generato da un chatbot. Chi ha imparato? E voi: cosa state valutando — il suo pensiero o quello della macchina? Siamo docenti. Vogliamo usare chatbot e agenti in aula senza delegare il pensiero agli studenti. Il problema non è “sì o no al chatbot”. È un problema di progettazione: chi pensa, quando, con quale controllo nostro, e con quale prodotto finale. Nei prossimi minuti lo trasformiamo in qualcosa che potete riusare lunedì.»\n\n\n\n\n\n[Passa alla chat con il Prompt B pronto.]\n\n«Prima previsione, secca: secondo voi questo prompt produrrà una spiegazione o un compito da far fare agli studenti? Alzata di mano: spiegazione… compito…»\n\n[Invia il Prompt B. Lascia comparire l’output.]\n\n«Non valutiamo se è perfetto. Lo trattiamo come materiale didattico: una bozza che la classe può correggere, completare, discutere. Ecco lo spostamento — il chatbot non è il pensante: è l’oggetto su cui si pensa.»\n\n[Se l’output è lungo: scorri, non leggerlo tutto. 10 secondi bastano.]\nPiano B se la rete/chat non va: il deck ha una slide di backup subito dopo “Esperimento”. Inserisci lì lo screenshot screenshot-promptB.png (catturane uno prima della sessione). Se la rete cade, salti a quella slide e fai la stessa battuta sullo screenshot.\n\n\n\n\n\n«Due gruppi. Ogni gruppo prende un prompt povero — “Spiega agli studenti il concetto di X” — e lo trasforma in un prompt attivo: uno in cui gli studenti devono fare qualcosa (scegliere, correggere, confrontare, argomentare, migliorare, formulare ipotesi). Usate lo schema O-A-R-C-O sulla scheda. Tre minuti. Scrivete il prompt finale nel riquadro. Via.»\n\n[Da qui in poi stai zitto. Gira fra i tavoli, non risolvere tu. Al massimo una spinta: «qual è l’azione concreta degli studenti?». A 2:30 annuncia:] «Trenta secondi: chiudete il prompt finale e auto-valutatevi con i 4 criteri 0-1-2 sulla scheda.»\nConcetti assegnabili (scegli o lascia scegliere): bias di selezione · derivata · consenso informato · equilibrio chimico · fonte primaria · variabile confondente · regressione logistica · fronti d’onda.\n\n\n\n\n\n«Ogni gruppo legge solo il prompt finale e mi dice qual è l’azione richiesta agli studenti. Niente preamboli — max ~30 secondi a gruppo.»\n\n[Gruppo 1 legge. Gruppo 2 legge. ~40 secondi l’uno.]\n[Poi la tua unica domanda di chiusura, a entrambi:]\n\n«Dove resta il controllo del docente? In una frase.»\n\n[Lascia che rispondano. Non aggiungere. Questa domanda è il ponte verso il payoff.]\n\n\n\n\n\n«Torniamo all’inizio: chi sta pensando? La risposta buona non è “il chatbot” né “lo studente da solo”. È: la classe pensa, usando l’output del chatbot come oggetto da lavorare. Non conta solo cosa dice il chatbot: conta cosa fa fare agli studenti. Un chatbot diventa didatticamente interessante quando non è il soggetto che risponde, ma l’oggetto attorno a cui la classe ragiona. Il valore didattico non sta nella risposta generata, ma nell’attività che quella risposta rende possibile.»\n\n[Mostra slide finale con QR / link.]\n\n«Vi resta tutto: la scheda che avete in mano, lo schema O-A-R-C-O, la formula pronta, la mini-rubrica e una pagina web con esempi e un generatore di prompt. Inquadrate il QR — è sulla scheda e sullo schermo: corradolanera-coder.github.io/chi-sta-pensando. Grazie.»"
+  },
+  {
+    "objectID": "docs/scaletta-copione.html#schema-o-a-r-c-o-il-solution-schema",
+    "href": "docs/scaletta-copione.html#schema-o-a-r-c-o-il-solution-schema",
+    "title": "Microteaching — Uso didattico di chatbot e agenti a lezione",
+    "section": "",
+    "text": "Non chiedere “Spiega X”. Chiedi: “Crea una situazione in cui gli studenti devono fare qualcosa con X.”\n\n\n\n\n\n\n\n\nLettera\nSignificato\nDomanda-guida\n\n\n\n\nO\nObiettivo\nCosa devono capire / saper fare gli studenti?\n\n\nA\nAzione degli studenti\nCosa fanno? (scegliere, correggere, confrontare, argomentare, migliorare, ipotizzare)\n\n\nR\nRuolo del chatbot/agente\nCosa genera per far pensare? (caso, errore, alternative, domanda, feedback)\n\n\nC\nControllo docente\nCosa il docente verifica / decide?\n\n\nO\nOutput finale\nCosa resta? (un prodotto degli studenti, verificabile)\n\n\n\n\n\n\nAgisci come [ruolo didattico]. Aiuta studenti di [livello] a capire [concetto]. Non limitarti a spiegare. Crea una situazione in cui gli studenti devono [azione]. Produci [caso / errore / alternative / domanda / feedback]. Non dare subito la soluzione. Alla fine restituisci [output finale]. Il docente dovrà verificare [punto di controllo].\n\n\n\n\n\n\n\n\n\n\n\n\n\nCriterio\n0\n1\n2\n\n\n\n\n1. Gli studenti agiscono (non solo leggono)\nassente\naccennato\npieno\n\n\n2. Il chatbot genera materiale per pensare\nassente\ngenerico\nmirato\n\n\n3. Il docente mantiene il controllo (verifica esplicita)\nassente\nimplicito\nesplicito\n\n\n4. Resta un output finale verificabile\nassente\nvago\ndefinito"
+  },
+  {
+    "objectID": "docs/scaletta-copione.html#mappa-gli-8-requisiti-dove-sono-nella-sessione",
+    "href": "docs/scaletta-copione.html#mappa-gli-8-requisiti-dove-sono-nella-sessione",
+    "title": "Microteaching — Uso didattico di chatbot e agenti a lezione",
+    "section": "",
+    "text": "Requisito\nDove\n\n\n\n\nHook iniziale\nSegmento 1 (spostamento fisico dx/sx)\n\n\nSituazione\nSegmento 2\n\n\nSfida\nSegmento 4 (trasformare prompt povero → attivo)\n\n\nSoluzione\nSchema O-A-R-C-O (segmenti 4-5)\n\n\nApprendimento attivo\nAzione degli studenti nei prompt + gruppi che producono\n\n\nAttività di gruppo\nSegmento 4\n\n\nPayoff finale\nSegmento 6\n\n\nArtefatto di ritorno\nScheda A4 + scheda gruppo + pagina web/QR"
+  },
+  {
+    "objectID": "docs/scaletta-copione.html#i-due-prompt-dellhook-testo-esatto",
+    "href": "docs/scaletta-copione.html#i-due-prompt-dellhook-testo-esatto",
+    "title": "Microteaching — Uso didattico di chatbot e agenti a lezione",
+    "section": "",
+    "text": "Prompt A — chatbot come sostituto\n\nSpiega il concetto di feedback formativo.\n\nPrompt B — chatbot come collega di pensiero\n\nAgisci come tutor socratico. Aiuta studenti universitari a capire il feedback formativo. Prima proponi una situazione concreta, poi fai una domanda diagnostica, poi mostra una risposta incompleta di uno studente, infine chiedi alla classe di migliorarla. Non dare subito la soluzione."
+  },
+  {
+    "objectID": "docs/scaletta-copione.html#se-ti-accorgi-di-sforare",
+    "href": "docs/scaletta-copione.html#se-ti-accorgi-di-sforare",
+    "title": "Microteaching — Uso didattico di chatbot e agenti a lezione",
+    "section": "",
+    "text": "Hook lungo: taglia le motivazioni (segmento 1) a una sola voce.\nGruppi lenti: dai tu il concetto invece di farlo scegliere; tieni il “30 secondi” fermo.\nRestituzione lunga: un solo gruppo legge, l’altro aggiunge solo “la nostra azione è…”.\nPayoff lungo: di’ solo le due frasi in grassetto (oggetto non soggetto · valore = attività resa possibile) e salta il resto.\nHai 30” di troppo: chiedi una terza motivazione nell’hook, o una seconda azione nella restituzione."
+  },
+  {
+    "objectID": "web/index.html",
+    "href": "web/index.html",
+    "title": "Chi sta pensando?",
+    "section": "",
+    "text": "Un chatbot non è didatticamente interessante quando risponde al posto degli studenti. Lo è quando diventa l’oggetto attorno a cui la classe ragiona.\n\nIl valore didattico non sta nella risposta generata, ma nell’attività che quella risposta rende possibile."
+  },
+  {
+    "objectID": "web/index.html#chi-sta-pensando-lo-studente-il-docente-o-il-chatbot",
+    "href": "web/index.html#chi-sta-pensando-lo-studente-il-docente-o-il-chatbot",
+    "title": "Chi sta pensando?",
+    "section": "",
+    "text": "Un chatbot non è didatticamente interessante quando risponde al posto degli studenti. Lo è quando diventa l’oggetto attorno a cui la classe ragiona.\n\nIl valore didattico non sta nella risposta generata, ma nell’attività che quella risposta rende possibile."
+  },
+  {
+    "objectID": "web/index.html#lo-spostamento",
+    "href": "web/index.html#lo-spostamento",
+    "title": "Chi sta pensando?",
+    "section": "Lo spostamento",
+    "text": "Lo spostamento\nStesso tema — feedback formativo — due modi di usare lo strumento.\n\n\n\n✗ Chatbot come sostituto\n\nSpiega il concetto di feedback formativo.\n\nIl chatbot risponde. Gli studenti ricevono. Il pensiero resta dentro la macchina: invisibile, non discutibile.\n\n\n\n\n✓ Chatbot come collega di pensiero\n\nAgisci come tutor socratico. Aiuta studenti universitari a capire il feedback formativo. Prima proponi una situazione concreta, poi fai una domanda diagnostica, poi mostra una risposta incompleta di uno studente, infine chiedi alla classe di migliorarla. Non dare subito la soluzione.\n\nIl chatbot genera materiale. Gli studenti lavorano su quel materiale. Il pensiero diventa visibile, discutibile, migliorabile.\n\n\n\n\n\n\n\n\n\nNota\n\n\n\n“Sbagliato” non vuol dire inutile. Anche un prompt povero può servire. Il punto non è se il chatbot è utile, ma se sostituisce il pensiero o lo rende visibile."
+  },
+  {
+    "objectID": "web/index.html#lo-schema-o-a-r-c-o",
+    "href": "web/index.html#lo-schema-o-a-r-c-o",
+    "title": "Chi sta pensando?",
+    "section": "Lo schema O-A-R-C-O",
+    "text": "Lo schema O-A-R-C-O\nNon chiedere “Spiega X”. Chiedi: «Crea una situazione in cui gli studenti devono fare qualcosa con X».\n\n\n\n\n\n\n\n\n\nLettera\nDomanda-guida\n\n\n\n\nO\nObiettivo\nCosa devono capire / saper fare gli studenti?\n\n\nA\nAzione degli studenti\nCosa fanno? scegliere · correggere · confrontare · argomentare · migliorare · ipotizzare\n\n\nR\nRuolo del chatbot/agente\nCosa genera per far pensare? caso · errore · alternative · domanda · feedback\n\n\nC\nControllo docente\nCosa il docente verifica / decide?\n\n\nO\nOutput finale\nCosa resta? un prodotto degli studenti, verificabile"
+  },
+  {
+    "objectID": "web/index.html#la-formula-pronta",
+    "href": "web/index.html#la-formula-pronta",
+    "title": "Chi sta pensando?",
+    "section": "La formula pronta",
+    "text": "La formula pronta\n\nAgisci come [ruolo didattico].\nAiuta studenti di [livello] a capire [concetto].\nNon limitarti a spiegare.\nCrea una situazione in cui gli studenti devono [azione].\nProduci [caso / errore / alternative / domanda / feedback].\nNon dare subito la soluzione.\nAlla fine restituisci [output finale].\nIl docente dovrà verificare [punto di controllo]."
+  },
+  {
+    "objectID": "web/index.html#generatore-di-prompt-attivo",
+    "href": "web/index.html#generatore-di-prompt-attivo",
+    "title": "Chi sta pensando?",
+    "section": "Generatore di prompt attivo",
+    "text": "Generatore di prompt attivo\nCompila i campi: il prompt si costruisce sotto, pronto da copiare.\n\n\nRuolo didattico  Livello studenti  Concetto  Azione degli studenti           Materiale generato dal chatbot          Output finale  Punto di controllo del docente \n\n\nCostruisci Copia \n\nCompila i campi e premi «Costruisci»."
+  },
+  {
+    "objectID": "web/index.html#esempi-prompt-povero-prompt-attivo",
+    "href": "web/index.html#esempi-prompt-povero-prompt-attivo",
+    "title": "Chi sta pensando?",
+    "section": "Esempi: prompt povero → prompt attivo",
+    "text": "Esempi: prompt povero → prompt attivo\nNove concetti da discipline diverse. Apri ciascuno per vedere lo schema O-A-R-C-O e il prompt finale."
+  },
+  {
+    "objectID": "web/index.html#mini-rubrica",
+    "href": "web/index.html#mini-rubrica",
+    "title": "Chi sta pensando?",
+    "section": "Mini-rubrica",
+    "text": "Mini-rubrica\nValuta un prompt: 0 assente · 1 parziale · 2 pieno. Massimo 8.\n\n\n\n\n\n\n\n\n\nCriterio\n0\n1\n2\n\n\n\n\n1. Gli studenti agiscono (non solo leggono)\n—\naccennato\npieno\n\n\n2. Il chatbot genera materiale per pensare\n—\ngenerico\nmirato\n\n\n3. Il docente mantiene il controllo (verifica esplicita)\n—\nimplicito\nesplicito\n\n\n4. Resta un output finale verificabile\n—\nvago\ndefinito\n\n\n\n\nNon conta solo cosa dice il chatbot: conta cosa fa fare agli studenti."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Chi sta pensando?",
+    "section": "",
+    "text": "«Chi sta pensando: lo studente, il docente o il chatbot?»\nUn chatbot è didatticamente buono quando diventa l’oggetto attorno a cui la classe ragiona, non il soggetto che risponde al posto degli studenti. Il valore non sta nella risposta generata, ma nell’attività che quella risposta rende possibile.\n\nTutti i materiali della micro-sessione, in un posto solo.\n\n\n  \n    📽️\n    Slide\n    Il deck da proiettare in aula: hook destra/sinistra, esperimento dal vivo, sfida a gruppi, payoff. Naviga con frecce, clic o il menu in basso.\n    Apri le slide →\n  \n\n  \n    🧩\n    Pagina O-A-R-C-O\n    Lo schema, la formula pronta, 9 esempi povero→attivo, la mini-rubrica e un generatore di prompt copiabile.\n    Apri la pagina →\n  \n\n  \n    🖨️\n    Schede stampabili\n    Scheda A4 da tenere + scheda gruppo da compilare, pronte per la stampa.\n    Apri le schede →  ·  PDF\n  \n\n  \n    🎬\n    Scaletta & copione\n    La regia minuto-per-minuto: tempi, battute, budget del parlato (≤ 5 min) e piani di taglio.\n    Apri la scaletta →\n  \n\n  \n    📑\n    Esempi (CSV)\n    I 9 esempi povero→attivo con i campi O-A-R-C-O, da scaricare e riusare.\n    Scarica il CSV →"
+  },
+  {
+    "objectID": "slides/microteaching.html#spostatevi",
+    "href": "slides/microteaching.html#spostatevi",
+    "title": "Chi sta pensando?",
+    "section": "Spostatevi",
+    "text": "Spostatevi\n\n\n\n← Sostituto\nPrompt A\n\nSpiega il concetto di feedback formativo.\n\n\n\n\nCollega di pensiero →\nPrompt B\n\nAgisci come tutor socratico. Aiuta studenti universitari a capire il feedback formativo. Prima proponi una situazione concreta, poi fai una domanda diagnostica, poi mostra una risposta incompleta di uno studente, infine chiedi alla classe di migliorarla. Non dare subito la soluzione.\n\n\n\n\nSinistra · Centro (incerti) · Destra\n\n\nSi alzano e si spostano. 1-2 motivazioni. Non dire chi ha ragione."
+  },
+  {
+    "objectID": "slides/microteaching.html#la-situazione",
+    "href": "slides/microteaching.html#la-situazione",
+    "title": "Chi sta pensando?",
+    "section": "La situazione",
+    "text": "La situazione\nSiamo docenti. Vogliamo usare chatbot e agenti senza delegare il pensiero.\n\nNon è “sì o no al chatbot”. È progettazione: chi pensa · quando · con quale controllo · con quale prodotto.\n\nSegmento 2 — ~45 secondi."
+  },
+  {
+    "objectID": "slides/microteaching.html#esperimento",
+    "href": "slides/microteaching.html#esperimento",
+    "title": "Chi sta pensando?",
+    "section": "Esperimento",
+    "text": "Esperimento\nPrima di eseguire — previsione:\nProdurrà una spiegazione o un compito da far fare agli studenti?\n\n\n[ eseguo il Prompt B dal vivo → trattiamo l’output come materiale didattico, non come risposta ]\n\n\nSegmento 3. Tieni una chat col Prompt B già pronta. Se la rete non va: salta alla slide di backup (la prossima)."
+  },
+  {
+    "objectID": "slides/microteaching.html#esperimento-backup",
+    "href": "slides/microteaching.html#esperimento-backup",
+    "title": "Chi sta pensando?",
+    "section": "Esperimento — backup",
+    "text": "Esperimento — backup\nDa usare solo se la rete/chat non funziona.\n\n[ inserisci qui screenshot-promptB.png — un output del Prompt B catturato prima della sessione ]\n\n\nBackup del segmento 3. Stessa battuta: “non valutiamo se è perfetto, lo trattiamo come materiale didattico”."
+  },
+  {
+    "objectID": "slides/microteaching.html#la-vostra-sfida-3-minuti",
+    "href": "slides/microteaching.html#la-vostra-sfida-3-minuti",
+    "title": "Chi sta pensando?",
+    "section": "La vostra sfida — 3 minuti",
+    "text": "La vostra sfida — 3 minuti\n\nTrasformate un prompt povero → attivo con lo schema O-A-R-C-O\n\n\n\n\n\n\n\n\nO\nObiettivo\ncosa devono capire\n\n\nA\nAzione studenti\nscegliere · correggere · confrontare · argomentare · migliorare · ipotizzare\n\n\nR\nRuolo chatbot/agente\ngenera: caso · errore · alternative · domanda · feedback\n\n\nC\nControllo docente\ncosa il docente verifica\n\n\nO\nOutput finale\ncosa resta, verificabile\n\n\n\nScrivete il prompt finale sulla scheda gruppo.\n\nConcetti: bias di selezione · derivata · consenso informato · equilibrio chimico · fonte primaria · variabile confondente · regressione logistica · fronti d’onda — Gruppo 1: ______ · Gruppo 2: ______\n\n\n\nSlide da lasciare proiettata durante il lavoro di gruppo (segmento 4). Tu giri fra i tavoli, zitto. Ultimi 20 sec: ogni gruppo si auto-valuta con i 4 criteri 0-1-2 sulla scheda."
+  },
+  {
+    "objectID": "slides/microteaching.html#restituzione",
+    "href": "slides/microteaching.html#restituzione",
+    "title": "Chi sta pensando?",
+    "section": "Restituzione",
+    "text": "Restituzione\nOgni gruppo: legge solo il prompt finale + qual è l’azione degli studenti.\n\n\nDove resta il controllo del docente?\n\n\nSegmento 5. La domanda è il ponte verso il payoff."
+  },
+  {
+    "objectID": "slides/microteaching.html#chi-sta-pensando",
+    "href": "slides/microteaching.html#chi-sta-pensando",
+    "title": "Chi sta pensando?",
+    "section": "Chi sta pensando?",
+    "text": "Chi sta pensando?\n\nNon il chatbot. Non lo studente da solo. La classe — usando l’output del chatbot come oggetto da lavorare.\n. . .\nNon conta solo cosa dice il chatbot. Conta cosa fa fare agli studenti.\n. . .\nIl valore non sta nella risposta generata, ma nell’attività che quella risposta rende possibile.\n\n\nSegmento 6 — payoff. Il chatbot come oggetto attorno a cui la classe ragiona, non soggetto che risponde."
+  },
+  {
+    "objectID": "slides/microteaching.html#vi-resta-tutto",
+    "href": "slides/microteaching.html#vi-resta-tutto",
+    "title": "Chi sta pensando?",
+    "section": "Vi resta tutto",
+    "text": "Vi resta tutto\nScheda O-A-R-C-O · formula pronta · mini-rubrica · esempi · generatore di prompt\n\n\ncorradolanera-coder.github.io/chi-sta-pensando\n\n\nGrazie.\n\n\nInquadrate il QR. Stesso QR è sulla scheda A4 che hanno in mano."
+  }
+]

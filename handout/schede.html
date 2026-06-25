@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Schede microteaching — O-A-R-C-O</title>
+<style>
+  :root { --ink:#1f2933; --accent:#2563eb; --good:#1b7f4b; --bad:#b23b3b; --line:#9aa5b1; }
+  * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  html, body { margin: 0; padding: 0; color: var(--ink); font-family: "Segoe UI", system-ui, sans-serif; }
+  .page {
+    width: 210mm; min-height: 297mm; padding: 14mm 15mm;
+    margin: 0 auto; background: #fff; page-break-after: always;
+  }
+  .page:last-child { page-break-after: auto; }
+  h1 { font-size: 19pt; margin: 0 0 1mm; }
+  h1 .q { color: var(--accent); }
+  .sub { color: #52606d; font-size: 10pt; margin: 0 0 4mm; }
+  h2 { font-size: 12.5pt; margin: 5mm 0 2mm; border-bottom: 2px solid var(--accent); padding-bottom: 1mm; color: var(--accent); }
+  p, li, td, th { font-size: 10pt; line-height: 1.4; }
+  .two { display: flex; gap: 6mm; }
+  .col { flex: 1; }
+  .box { border: 1px solid var(--line); border-radius: 6px; padding: 3mm 4mm; }
+  .box-bad { background: #fbeaea; border-color: #e3b3b3; }
+  .box-good { background: #e8f5ee; border-color: #b3d9c2; }
+  .mono { font-family: "Consolas", ui-monospace, monospace; font-size: 9pt; }
+  table { width: 100%; border-collapse: collapse; margin: 2mm 0; }
+  th, td { border: 1px solid var(--line); padding: 1.6mm 2.4mm; vertical-align: top; }
+  .oarco th { width: 8mm; text-align: center; background: #eef2ff; color: var(--accent); font-weight: 800; font-size: 12pt; }
+  .formula { background: #0f172a; color: #e7ecf3; border-radius: 6px; padding: 3mm 4mm; font-family: Consolas, monospace; font-size: 9pt; line-height: 1.55; white-space: pre-wrap; }
+  .hl { color: #ffd479; }
+  .rubric th { background: #f1f5f9; text-align: center; }
+  .rubric td.crit { text-align: left; }
+  .rubric td { text-align: center; }
+  .fill { border-bottom: 1px solid var(--line); height: 6mm; }
+  .lines .fill { margin-top: 4mm; }
+  .small { font-size: 8.5pt; color: #616e7c; }
+  .tag { display:inline-block; font-size:8pt; font-weight:700; padding:.4mm 2mm; border-radius:3px; }
+  .tag-bad { background:#fbeaea; color:var(--bad); }
+  .tag-good { background:#e8f5ee; color:var(--good); }
+  .foot { margin-top: 4mm; font-size: 8.5pt; color: #7b8794; border-top: 1px dashed var(--line); padding-top: 2mm; }
+  .write { border: 1px dashed var(--line); border-radius: 6px; min-height: 22mm; }
+  @page { size: A4; margin: 0; }
+  @media print { .page { margin: 0; } }
+</style>
+</head>
+<body>
+
+<!-- ============ PAGINA 1 — SCHEDA PARTECIPANTE (da tenere) ============ -->
+<section class="page">
+  <h1>Chi sta pensando? <span class="q">— scheda da tenere</span></h1>
+  <p class="sub">Chatbot e agenti a lezione: da <em>sostituto del pensiero</em> a <strong>collega di pensiero</strong>.</p>
+
+  <div class="two">
+    <div class="col box box-bad">
+      <strong style="color:var(--bad)">✗ Sostituto</strong>
+      <p class="mono">Spiega il concetto di feedback formativo.</p>
+      <p class="small">Il chatbot risponde, gli studenti ricevono. Il pensiero resta invisibile.</p>
+    </div>
+    <div class="col box box-good">
+      <strong style="color:var(--good)">✓ Collega di pensiero</strong>
+      <p class="mono">Agisci come tutor socratico. Aiuta studenti universitari a capire il feedback formativo. Prima proponi una situazione concreta, poi fai una domanda diagnostica, poi mostra una risposta incompleta di uno studente, infine chiedi alla classe di migliorarla. Non dare subito la soluzione.</p>
+      <p class="small">Il chatbot genera materiale, gli studenti lavorano. Il pensiero diventa visibile e migliorabile.</p>
+    </div>
+  </div>
+
+  <h2>Lo schema O-A-R-C-O</h2>
+  <p class="small" style="margin:0 0 1mm">Non chiedere «Spiega X». Chiedi: <strong>«Crea una situazione in cui gli studenti devono fare qualcosa con X».</strong></p>
+  <table class="oarco">
+    <tr><th>O</th><td><strong>Obiettivo</strong> — cosa devono capire / saper fare gli studenti</td></tr>
+    <tr><th>A</th><td><strong>Azione degli studenti</strong> — scegliere · correggere · confrontare · argomentare · migliorare · ipotizzare</td></tr>
+    <tr><th>R</th><td><strong>Ruolo del chatbot/agente</strong> — genera materiale per pensare: caso · errore · alternative · domanda · feedback</td></tr>
+    <tr><th>C</th><td><strong>Controllo docente</strong> — cosa il docente verifica / decide</td></tr>
+    <tr><th>O</th><td><strong>Output finale</strong> — cosa resta: un prodotto degli studenti, verificabile</td></tr>
+  </table>
+
+  <h2>La formula pronta</h2>
+  <div class="formula">Agisci come <span class="hl">[ruolo didattico]</span>.
+Aiuta studenti di <span class="hl">[livello]</span> a capire <span class="hl">[concetto]</span>.
+Non limitarti a spiegare.
+Crea una situazione in cui gli studenti devono <span class="hl">[azione]</span>.
+Produci <span class="hl">[caso / errore / alternative / domanda / feedback]</span>.
+Non dare subito la soluzione.
+Alla fine restituisci <span class="hl">[output finale]</span>.
+Il docente dovrà verificare <span class="hl">[punto di controllo]</span>.</div>
+
+  <h2>Mini-rubrica · 0 assente · 1 parziale · 2 pieno (max 8)</h2>
+  <table class="rubric">
+    <tr><th class="crit" style="text-align:left">Criterio</th><th>0</th><th>1</th><th>2</th></tr>
+    <tr><td class="crit">1. Gli studenti <strong>agiscono</strong> (non solo leggono)</td><td>—</td><td>accennato</td><td>pieno</td></tr>
+    <tr><td class="crit">2. Il chatbot <strong>genera materiale per pensare</strong></td><td>—</td><td>generico</td><td>mirato</td></tr>
+    <tr><td class="crit">3. Il docente <strong>mantiene il controllo</strong> (verifica esplicita)</td><td>—</td><td>implicito</td><td>esplicito</td></tr>
+    <tr><td class="crit">4. Resta un <strong>output finale</strong> verificabile</td><td>—</td><td>vago</td><td>definito</td></tr>
+  </table>
+
+  <div class="foot" style="display:flex;align-items:center;gap:5mm">
+    <img src="qr.svg" alt="QR alla pagina web" style="width:22mm;height:22mm;flex:0 0 auto">
+    <div>Non conta solo <em>cosa dice</em> il chatbot: conta <em>cosa fa fare</em> agli studenti.<br>Esempi, formula e <strong>generatore di prompt</strong>: inquadra il QR → <strong>corradolanera-coder.github.io/chi-sta-pensando</strong></div>
+  </div>
+</section>
+
+<!-- ============ PAGINA 2 — SCHEDA GRUPPO (da compilare) ============ -->
+<section class="page">
+  <h1>Scheda gruppo <span class="q">— da compilare (3 min)</span></h1>
+  <p class="sub">Trasformate un prompt <span class="tag tag-bad">povero</span> in un prompt <span class="tag tag-good">attivo</span>: uno in cui gli studenti devono <strong>fare</strong> qualcosa.</p>
+
+  <p><strong>Concetto:</strong> <span class="fill" style="display:inline-block;width:60%"></span></p>
+  <div class="box box-bad" style="margin:2mm 0">
+    <span class="tag tag-bad">povero</span>
+    <span class="mono">«Spiega agli studenti il concetto di ______________________.»</span>
+  </div>
+
+  <h2>Compilate O-A-R-C-O</h2>
+  <table class="oarco">
+    <tr><th>O</th><td><strong>Obiettivo</strong><div class="fill"></div></td></tr>
+    <tr><th>A</th><td><strong>Azione degli studenti</strong> <span class="small">(scegliere · correggere · confrontare · argomentare · migliorare · ipotizzare)</span><div class="fill"></div></td></tr>
+    <tr><th>R</th><td><strong>Ruolo del chatbot/agente</strong> <span class="small">(caso · errore · alternative · domanda · feedback)</span><div class="fill"></div></td></tr>
+    <tr><th>C</th><td><strong>Controllo docente</strong><div class="fill"></div></td></tr>
+    <tr><th>O</th><td><strong>Output finale</strong><div class="fill"></div></td></tr>
+  </table>
+
+  <h2>Prompt finale</h2>
+  <div class="box write"></div>
+
+  <div class="two" style="margin-top:3mm">
+    <div class="col">
+      <h2 style="margin-top:0">Auto-check (0-1-2)</h2>
+      <table class="rubric">
+        <tr><td class="crit">Gli studenti agiscono</td><td>0</td><td>1</td><td>2</td></tr>
+        <tr><td class="crit">Il chatbot genera materiale</td><td>0</td><td>1</td><td>2</td></tr>
+        <tr><td class="crit">Il docente mantiene il controllo</td><td>0</td><td>1</td><td>2</td></tr>
+        <tr><td class="crit">Resta un output finale</td><td>0</td><td>1</td><td>2</td></tr>
+      </table>
+    </div>
+    <div class="col">
+      <h2 style="margin-top:0">Formula d'aiuto</h2>
+      <p class="small">Agisci come [ruolo]. Aiuta studenti di [livello] a capire [concetto]. Non limitarti a spiegare. Crea una situazione in cui gli studenti devono [azione]. Produci [caso/errore/alternative/domanda/feedback]. Non dare subito la soluzione. Alla fine restituisci [output finale]. Il docente verificherà [punto di controllo].</p>
+    </div>
+  </div>
+
+  <p class="foot">Alla restituzione leggete <strong>solo il prompt finale</strong> + qual è l'<strong>azione</strong> richiesta agli studenti. Poi: dove resta il controllo del docente?</p>
+</section>
+
+</body>
+</html>
