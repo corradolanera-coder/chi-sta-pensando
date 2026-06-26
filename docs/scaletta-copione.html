@@ -175,8 +175,8 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>1</td>
 <td>Hook: 2 prompt, ci si sposta</td>
-<td>2:30</td>
-<td>~1:00</td>
+<td>1:30</td>
+<td>~0:45</td>
 <td>partecipanti si spostano</td>
 </tr>
 <tr class="even">
@@ -188,26 +188,33 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>3</td>
+<td>Wooclap live (timer 1:00)</td>
+<td>1:30</td>
+<td>~0:20 (istruzioni)</td>
+<td>rispondono dai telefoni</td>
+</tr>
+<tr class="even">
+<td>4</td>
 <td>Sfida a gruppi (timer 3:00)</td>
 <td>3:00</td>
 <td>~0:25 (istruzioni)</td>
 <td>gruppi</td>
 </tr>
-<tr class="even">
-<td>4</td>
-<td>Restituzione lampo</td>
-<td>1:30</td>
-<td>~0:30 (1 domanda)</td>
-<td>gruppi</td>
-</tr>
 <tr class="odd">
 <td>5</td>
+<td>Restituzione lampo</td>
+<td>1:00</td>
+<td>~0:25 (1 domanda)</td>
+<td>gruppi</td>
+</tr>
+<tr class="even">
+<td>6</td>
 <td>Payoff</td>
 <td>1:30</td>
 <td>~0:50</td>
 <td>ascoltano</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><strong>Totale</strong></td>
 <td><strong>10:00</strong></td>
@@ -216,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>Margine ~1:30 sul tetto dei 5 minuti di parlato. Sul <strong>tempo totale</strong> non c’è buffer: se sfori i 10 minuti, comprimi prima la restituzione (un solo gruppo legge), poi l’hook (una sola motivazione).</p>
+<p>Margine ~1:30 sul tetto dei 5 minuti di parlato. Sul <strong>tempo totale</strong> non c’è buffer: la sessione è densa. Se sfori i 10 minuti, comprimi nell’ordine: restituzione (un solo gruppo legge) → hook (una sola motivazione per prompt) → sfida (porta a 2:30). Il Wooclap (seg. 3) si appoggia sull’output appena generato in “Proviamo”: tienili attaccati.</p>
 <hr>
 </section>
 <section id="setup-prima-di-iniziare-fuori-cronometro" class="level2">
@@ -233,8 +240,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="scaletta-minuto-per-minuto-copione" class="level2">
 <h2 class="anchored" data-anchor-id="scaletta-minuto-per-minuto-copione">Scaletta minuto-per-minuto + copione</h2>
 <p>Le battute fra virgolette sono il copione, tarate per il budget. Tra <code>[ ]</code> le azioni.</p>
-<section id="hook-chi-sta-pensando-000-230" class="level3">
-<h3 class="anchored" data-anchor-id="hook-chi-sta-pensando-000-230">1 · Hook: chi sta pensando? — 0:00 → 2:30</h3>
+<section id="hook-chi-sta-pensando-000-130" class="level3">
+<h3 class="anchored" data-anchor-id="hook-chi-sta-pensando-000-130">1 · Hook: chi sta pensando? — 0:00 → 1:30</h3>
 <p>[Slide titolo: «Chi sta pensando? — chatbot o studente?».]</p>
 <blockquote class="blockquote">
 <p>«Noi docenti vogliamo usare chatbot e agenti in aula. La domanda non è “sì o no”, ma: <strong>chi sta pensando — il chatbot o lo studente?</strong> Ve lo faccio decidere coi piedi.»</p>
@@ -251,8 +258,8 @@ ul.task-list li input[type="checkbox"] {
 <p>[Spostamento. 1 motivazione. Non dire chi ha ragione: lo scioglie il payoff.]</p>
 <hr>
 </section>
-<section id="proviamo-230-400" class="level3">
-<h3 class="anchored" data-anchor-id="proviamo-230-400">2 · Proviamo — 2:30 → 4:00</h3>
+<section id="proviamo-130-300" class="level3">
+<h3 class="anchored" data-anchor-id="proviamo-130-300">2 · Proviamo — 1:30 → 3:00</h3>
 <p>[Slide <strong>Proviamo</strong>: i due prompt affiancati sullo stesso sfondo diviso.]</p>
 <blockquote class="blockquote">
 <p>«Previsione secca: il Prompt B produrrà una <strong>spiegazione</strong> o un <strong>compito</strong> da far fare agli studenti? Mani in alto…»</p>
@@ -264,8 +271,19 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Piano B se la rete non va:</strong> tieni uno screenshot dell’output del Prompt B pronto in una finestra; mostralo e fai la stessa battuta.</p>
 <hr>
 </section>
-<section id="la-vostra-sfida-400-700-300" class="level3">
-<h3 class="anchored" data-anchor-id="la-vostra-sfida-400-700-300">3 · La vostra sfida — 4:00 → 7:00 (3:00)</h3>
+<section id="wooclap-live-300-430-130" class="level3">
+<h3 class="anchored" data-anchor-id="wooclap-live-300-430-130">3 · Wooclap live — 3:00 → 4:30 (1:30)</h3>
+<p>[Slide <strong>Wooclap</strong>: iframe della live-session + <strong>timer 1:00</strong>.]</p>
+<p>[Dall’output del Prompt B prendi la “risposta incompleta di uno studente” e incollala nella domanda Wooclap. La modifichi dal vivo da <code>app.wooclap.com/events/DRUTKKJ/live-session</code>.]</p>
+<blockquote class="blockquote">
+<p>«Questa è una risposta di uno studente. <strong>Come la migliorereste?</strong> Un minuto: rispondete dal telefono su Wooclap.»</p>
+</blockquote>
+<p>[<strong>Clic sul timer (1:00)</strong>. Leggi 1-2 risposte ad alta voce: il chatbot è l’<em>oggetto</em> su cui ragiona la classe. Se l’iframe mostra il login, usa “Apri a tutto schermo”.]</p>
+<p><strong>Pattern della domanda:</strong> <em>Domanda</em> (il problema) · <em>Risposta</em> (incompleta, dall’output) · <em>Tu: come miglioreresti questa risposta?</em></p>
+<hr>
+</section>
+<section id="la-vostra-sfida-430-730-300" class="level3">
+<h3 class="anchored" data-anchor-id="la-vostra-sfida-430-730-300">4 · La vostra sfida — 4:30 → 7:30 (3:00)</h3>
 <p>[Slide <strong>La vostra sfida</strong>: O-A-R-C-O a sinistra, concetti a destra, <strong>timer</strong> in alto a destra.]</p>
 <blockquote class="blockquote">
 <p>«Due gruppi. Trasformate un prompt povero — <em>“Spiega X”</em> — in un prompt <strong>attivo</strong>, dove gli studenti devono <strong>fare</strong> qualcosa. Usate lo schema <strong>O-A-R-C-O</strong> sulla scheda. Scegliete un concetto dalla lista. Tre minuti: via.»</p>
@@ -273,8 +291,8 @@ ul.task-list li input[type="checkbox"] {
 <p>[<strong>Clic sul timer</strong> per avviarlo. Da qui <strong>stai zitto</strong>: gira fra i tavoli, non risolvere tu. Al massimo: «qual è l’azione concreta degli studenti?». Ultimi 20 sec: «auto-valutatevi coi 4 criteri 0-1-2».]</p>
 <hr>
 </section>
-<section id="restituzione-lampo-700-830-130" class="level3">
-<h3 class="anchored" data-anchor-id="restituzione-lampo-700-830-130">4 · Restituzione lampo — 7:00 → 8:30 (1:30)</h3>
+<section id="restituzione-lampo-730-830-100" class="level3">
+<h3 class="anchored" data-anchor-id="restituzione-lampo-730-830-100">5 · Restituzione lampo — 7:30 → 8:30 (1:00)</h3>
 <blockquote class="blockquote">
 <p>«Ogni gruppo legge <strong>solo il prompt finale</strong> + qual è l’<strong>azione</strong> richiesta agli studenti. Niente preamboli — max ~30 secondi a gruppo.»</p>
 </blockquote>
@@ -286,7 +304,7 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 </section>
 <section id="payoff-830-1000-130" class="level3">
-<h3 class="anchored" data-anchor-id="payoff-830-1000-130">5 · Payoff — 8:30 → 10:00 (1:30)</h3>
+<h3 class="anchored" data-anchor-id="payoff-830-1000-130">6 · Payoff — 8:30 → 10:00 (1:30)</h3>
 <p>[Slide <strong>Chi sta pensando?</strong> (payoff).]</p>
 <blockquote class="blockquote">
 <p>«Torniamo all’inizio. Chi sta pensando? <strong>La classe</strong> — non il chatbot, non lo studente da solo: la classe che lavora sull’output del chatbot. Non conta solo <em>cosa dice</em> il chatbot: conta <em>cosa fa fare</em> agli studenti. Il valore non sta nella risposta generata, ma <strong>nell’attività che quella risposta rende possibile</strong>.»</p>
@@ -419,23 +437,23 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>Sfida</td>
-<td>Segmento 3 (trasformare prompt povero → attivo)</td>
+<td>Segmento 4 (trasformare prompt povero → attivo)</td>
 </tr>
 <tr class="even">
 <td>Soluzione</td>
-<td>Schema O-A-R-C-O (segmenti 3-4)</td>
+<td>Schema O-A-R-C-O (segmenti 4-5)</td>
 </tr>
 <tr class="odd">
 <td>Apprendimento attivo</td>
-<td>Azione degli studenti nei prompt + gruppi che producono</td>
+<td>Risposte live su Wooclap (seg. 3) + azione degli studenti nei prompt + gruppi che producono</td>
 </tr>
 <tr class="even">
 <td>Attività di gruppo</td>
-<td>Segmento 3</td>
+<td>Segmento 4</td>
 </tr>
 <tr class="odd">
 <td>Payoff finale</td>
-<td>Segmento 5</td>
+<td>Segmento 6</td>
 </tr>
 <tr class="even">
 <td>Artefatto di ritorno</td>

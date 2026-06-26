@@ -1079,6 +1079,53 @@ overflow: hidden!important;
 display:block!important;
 }</style></aside>
 </section>
+<section id="section-2" class="slide level2" data-menu-title="Wooclap (live)">
+<h2> </h2>
+<div style="display:flex;flex-direction:column;height:600px;gap:.35em">
+  <div style="display:flex;justify-content:space-between;align-items:center">
+    <div style="font-size:.62em;font-weight:800">Rispondete live: <span style="color:#2563eb">come miglioreresti questa risposta?</span></div>
+    <div id="wc-timer" title="clic: avvia · pausa · (a 0) azzera" style="font-size:.7em;font-weight:800;color:#f8fafc;background:#0f172a;border:2px solid #475569;border-radius:12px;padding:.04em .4em;cursor:pointer;user-select:none">1:00 ⏱</div>
+  </div>
+  <iframe id="wc-frame" style="flex:1;width:100%;border:2px solid #cbd5e1;border-radius:10px;background:#fff" allow="clipboard-write; fullscreen"></iframe>
+  <div style="display:flex;justify-content:space-between;align-items:center;font-size:.46em;color:#475569;gap:1em">
+    <span><strong>Domanda</strong>: …  ·  <strong>Risposta</strong>: …  ·  <strong>Tu</strong>: come miglioreresti questa risposta?</span>
+    <a href="https://app.wooclap.com/events/DRUTKKJ/live-session" target="_blank" rel="noopener" style="font-weight:700;color:#2563eb;white-space:nowrap">Apri Wooclap a tutto schermo ↗</a>
+  </div>
+</div>
+<script>
+(function(){
+  function init(){
+    var fr=document.getElementById('wc-frame'); if(fr && !fr.src){ fr.src='https://app.wooclap.com/events/DRUTKKJ/live-session'; }
+    var el=document.getElementById('wc-timer'); if(!el||el.dataset.on) return; el.dataset.on=1;
+    var TOTAL=60, rem=TOTAL, t=null;
+    function fmt(s){var m=Math.floor(s/60),ss=String(s%60).padStart(2,'0');return m+':'+ss;}
+    function draw(){el.textContent=fmt(rem)+' ⏱';el.style.color=rem<=10?'#f87171':'#f8fafc';el.style.borderColor=t?'#22c55e':(rem<=10?'#f87171':'#475569');}
+    el.addEventListener('click',function(e){
+      e.stopPropagation();
+      if(t){clearInterval(t);t=null;draw();return;}
+      if(rem<=0){rem=TOTAL;draw();return;}
+      t=setInterval(function(){rem--;draw();if(rem<=0){clearInterval(t);t=null;draw();}},1000);
+      draw();
+    });
+    draw();
+  }
+  if(document.readyState!=='loading') init(); else document.addEventListener('DOMContentLoaded',init);
+})();
+</script>
+<aside class="notes">
+<p>Wooclap live (1 min). Prendo dall’output del Prompt B una “risposta incompleta” e la incollo nella domanda Wooclap (pattern: Domanda / Risposta / Tu: come miglioreresti?). I partecipanti rispondono dai telefoni. Io modifico la domanda live da app.wooclap.com/events/DRUTKKJ/live-session. Se l’iframe mostra il login (cookie di terze parti), uso “Apri a tutto schermo”.</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section>
 <section id="la-vostra-sfida-3-minuti" class="slide level2" data-background-color="#0f172a">
 <h2>La vostra sfida — 3 minuti</h2>
 <div id="oarco-timer" title="clic: avvia · pausa · (a 0) azzera" style="position:absolute;top:.15em;right:.1em;font-size:1.5em;font-weight:800;color:#f8fafc;background:#1e293b;border:2px solid #475569;border-radius:14px;padding:.05em .45em;cursor:pointer;z-index:20;user-select:none">3:00 ⏱</div>
@@ -1153,7 +1200,7 @@ overflow: hidden!important;
 display:block!important;
 }</style></aside>
 </section>
-<section id="section-2" class="slide level2" data-menu-title="Materiali">
+<section id="section-3" class="slide level2" data-menu-title="Materiali">
 <h2> </h2>
 <div class="columns">
 <div class="column" style="width:42%;">
