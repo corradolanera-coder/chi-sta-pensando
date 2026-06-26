@@ -74,6 +74,8 @@
 }
 .btn-primary { background: var(--accent); color: #fff; }
 .btn-ghost { background: #fff; color: var(--accent); }
+.btn-inspire { background: linear-gradient(135deg,#7c3aed,#2563eb); color:#fff; border-color:#7c3aed; }
+.btn-inspire:hover { filter: brightness(1.08); }
 .btn-copy { background: #fff; color: var(--accent); padding: .3rem .7rem; font-size: .8rem; align-self: flex-start; }
 .gen-status { color: var(--good); font-weight: 600; }
 .gen-out {

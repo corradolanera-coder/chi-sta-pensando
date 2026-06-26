@@ -4059,6 +4059,8 @@ border: 1px solid var(--accent);
 }
 .btn-primary { background: var(--accent); color: #fff; }
 .btn-ghost { background: #fff; color: var(--accent); }
+.btn-inspire { background: linear-gradient(135deg,#7c3aed,#2563eb); color:#fff; border-color:#7c3aed; }
+.btn-inspire:hover { filter: brightness(1.08); }
 .btn-copy { background: #fff; color: var(--accent); padding: .3rem .7rem; font-size: .8rem; align-self: flex-start; }
 .gen-status { color: var(--good); font-weight: 600; }
 .gen-out {
@@ -4126,6 +4128,10 @@ border-radius: 12px; font-size: 1.15rem; font-weight: 600; text-align: center; l
   <li class="nav-item">
     <a class="nav-link active" href="../web/index.html" aria-current="page"> 
 <span class="menu-text">Pagina O-A-R-C-O</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../esempi.html"> 
+<span class="menu-text">Esempi</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../docs/scaletta-copione.html"> 
@@ -4294,7 +4300,7 @@ Il docente dovrà verificare [punto di controllo].</code></pre>
 <p><label>Ruolo didattico <input id="g-ruolo" placeholder="tutor socratico"></label> <label>Livello studenti <input id="g-livello" placeholder="triennale, primo anno"></label> <label>Concetto <input id="g-concetto" placeholder="bias di selezione"></label> <label>Azione degli studenti <input id="g-azione" list="azioni" placeholder="individuare e correggere"> <datalist id="azioni"> <option value="scegliere e giustificare"> </option><option value="correggere un errore"> </option><option value="confrontare due risposte"> </option><option value="argomentare una posizione"> </option><option value="migliorare una risposta incompleta"> </option><option value="formulare un&#39;ipotesi"> </option></datalist> </label> <label>Materiale generato dal chatbot <input id="g-materiale" list="materiali" placeholder="3 scenari, alcuni con bias"> <datalist id="materiali"> <option value="un caso concreto"> </option><option value="una risposta con un errore"> </option><option value="alcune alternative"> </option><option value="una domanda diagnostica"> </option><option value="un feedback generico da migliorare"> </option></datalist> </label> <label>Output finale <input id="g-output" placeholder="una tabella scenario → bias → correzione"></label> <label>Punto di controllo del docente <input id="g-controllo" placeholder="quali scenari contengono davvero il bias"></label></p>
 </div>
 <div class="gen-actions">
-<p><button id="g-build" class="btn-primary">Costruisci</button> <button id="g-copy" class="btn-ghost">Copia</button> <span id="g-status" class="gen-status"></span></p>
+<p><button id="g-inspire" class="btn-inspire">✨ Ispirami</button> <button id="g-build" class="btn-primary">Costruisci</button> <button id="g-copy" class="btn-ghost">Copia</button> <span id="g-status" class="gen-status"></span></p>
 </div>
 <pre id="g-out" class="gen-out">Compila i campi e premi «Costruisci».</pre>
 </div>
@@ -4430,9 +4436,25 @@ Il docente dovrà verificare ${val('g-controllo','[punto di controllo]')}.`;
   return t;
 }
 
+const POOLS = {
+  'g-ruolo': ['tutor socratico','tutor di metodologia della ricerca','mentore critico','esaminatore esigente','tutor di laboratorio','revisore tra pari','facilitatore di dibattito'],
+  'g-livello': ['triennale, primo anno','triennale, terzo anno','magistrale','dottorato','un master','medicina, terzo anno'],
+  'g-concetto': ['il bias di selezione','la derivata','il consenso informato','l’equilibrio chimico','la fonte primaria','la variabile confondente','la regressione logistica','i fronti d’onda','il teorema di Bayes','l’entropia','l’elasticità della domanda','il PIL reale','la mitosi','la deriva genetica','il sillogismo','la rifrazione','l’integrale definito','la significatività statistica','il feedback formativo','la tettonica delle placche','la legge di Ohm','il ciclo di Krebs','la prospettiva lineare','il principio di non contraddizione','la valenza chimica','l’inferenza causale'],
+  'g-azione': ['scegliere e giustificare la scelta','correggere un errore','confrontare due risposte','argomentare una posizione','migliorare una risposta incompleta','formulare un’ipotesi e verificarla','ordinare per plausibilità','trovare un controesempio'],
+  'g-materiale': ['un caso concreto','una risposta con un errore tipico','tre alternative plausibili','una domanda diagnostica','un feedback generico da migliorare','due soluzioni a confronto','uno scenario ambiguo'],
+  'g-output': ['una tabella di confronto','due versioni riscritte con il criterio usato','una classificazione motivata','una mappa errore → correzione','una breve argomentazione','un elenco di ipotesi con verifica','una rubrica di auto-valutazione'],
+  'g-controllo': ['quale risposta è davvero corretta','dove si genera l’errore','quali criteri ha usato la classe','se l’argomentazione regge','quali ipotesi sono verificabili','la coerenza fra azione e obiettivo']
+};
+function pick(a){ return a[Math.floor(Math.random()*a.length)]; }
+function inspire(){
+  Object.keys(POOLS).forEach(id => { document.getElementById(id).value = pick(POOLS[id]); });
+  buildPrompt();
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   renderEsempi();
   document.getElementById('g-build').addEventListener('click', buildPrompt);
+  document.getElementById('g-inspire').addEventListener('click', inspire);
   document.getElementById('g-copy').addEventListener('click', () => {
     const t = buildPrompt();
     navigator.clipboard.writeText(t).then(() => {
